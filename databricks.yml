@@ -14,4 +14,4 @@ targets:
     mode: production
 
     workspace:
-      host: ${env.DATABRICKS_HOST}
+      host: https://dbc-5b9d95d7-9b8c.cloud.databricks.com/browse?o=7474646316001988
