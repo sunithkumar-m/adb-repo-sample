@@ -1,0 +1,17 @@
+bundle:
+  name: Jonah-je-dbx-app-payouts
+
+
+sync:
+  include:
+    - source_to_landing/**
+    - landing_to_raw/**
+    - raw_to_refined/**
+    - Workflow/**
+
+targets:
+  uat:
+    mode: production
+
+    workspace:
+      host: ${env.DATABRICKS_HOST}
